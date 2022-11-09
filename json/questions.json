@@ -1,16 +1,15 @@
-
-
 data = [
     {
-        question: "Cual de las siguientes opciones corresponden a tipos de Sistemas Operativos Existentes en el mercado.",
+        question: "The Plaka is the oldest quarter of which city?",
         answers: {
-            a: "Windows, Mac Os, Linux",
-            b: "Office, Word, Excel",
-            c: "Mother Board, Mouse, Teclado",
-            d: "Internet, Servidor, Conexión FTP"
+            a: "Athens",
+            b: "Prague",
+            c: "Rome",
+            d: "Vienna"
         },
-        correctAnswer: "Windows, Mac Os, Linux"
+        correctAnswer: "a"
     },
+
     {
         question: "¿Qué programa de ofimática utilizamos para escribir cartas?",
         answers: {
@@ -19,7 +18,7 @@ data = [
             c: "Internet",
             d: "Pluma y papel"
         },
-        correctAnswer: "Word"
+        correctAnswer: "a"
     },
     
     {
@@ -30,7 +29,7 @@ data = [
             c: "Photoshop",
             d: "Cualquiera de los 3 anteriores"
         },
-        correctAnswer: "Cualquiera de los 3 anteriores"
+        correctAnswer: "d"
     },
 
     {
@@ -41,7 +40,7 @@ data = [
             c: "Son los que te permiten abrir Internet",
             d: "Google, Yahoo, Gmail"
         },
-        correctAnswer: "Son los que permiten dar entrada al cpu"
+        correctAnswer: "b"
     },
 
     {
@@ -52,61 +51,6 @@ data = [
             c: "Permitir el libre acceso al cpu",
             d: "Sirven para que encienda correctamente una computadora"
         },
-        correctAnswer: "Permiten la entrada como la salida de procesos"
-    },
-
-    {
-        question: "Menciona que son Dispositivos de Almacenamiento",
-        answers: {
-            a: "Permiten la comunicación entre los usuarios y la computadora",
-            b: "Proporcionan almacenamiento no volátil de datos y memoria.",
-            c: "Permiten conectar a la computadora con otras a través de una interfaz de red. Entre ellos se pueden mencionar los Modem, Tarjetas de Interfaz de Red,",
-            d: "Esta no es"
-        },
-        correctAnswer: "Proporcionan almacenamiento no volátil de datos y memoria."
-    },
-
-    {
-        question: "Indique cuál es la combinación de teclas que sirve para cerrar una ventana.",
-        answers: {
-            a: "ALT+F4",
-            b: "CTL+ALT+Z",
-            c: "ENTER",
-            d: "ALT+SHIFT"
-        },
-        correctAnswer: "ALT+F4"
-    },
-
-    {
-        question: "Formula que permite sumar los valores desde la celda A1 hasta la celda A33 en Excel.",
-        answers: {
-            a: "=(A1:A33)",
-            b: "=SUMA(A1:A33)",
-            c: "SUMA(A1:A33)",
-            d: "=SUMA(A1+A33)"
-        },
-        correctAnswer: "=SUMA(A1:A33)"
-    },
-
-    {
-        question: "Combinación de teclas que despliega el portapapeles de windows",
-        answers: {
-            a: "Ctrl + Y",
-            b: "Alt + Y",
-            c: "Windows + V",
-            d: "Ctrl + Alt + Shift + Y"
-        },
-        correctAnswer: "Windows + V"
-    },
-
-    {
-        question: "Julio necesita presentar una monografía y no sabe dónde encontrar información, ¿Qué le sugieres?",
-        answers: {
-            a: "Power Point",
-            b: "Microsoft Encarta",
-            c: "Google",
-            d: "No hacerla"
-        },
-        correctAnswer: "Google"
+        correctAnswer: "b"
     }
 ];
