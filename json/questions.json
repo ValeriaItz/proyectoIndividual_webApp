@@ -1,13 +1,13 @@
 data = [
     {
-        question: "The Plaka is the oldest quarter of which city?",
+        question: "¿Con qué película ganó Steven Spielberg su primer Oscar al mejor director?",
         answers: {
-            a: "Athens",
-            b: "Prague",
-            c: "Rome",
-            d: "Vienna"
+            a: "El color púrpura.",
+            b: "E.T. el extraterrestre.",
+            c: "La lista de Schindler.",
+            d: "Parque Jurásico"
         },
-        correctAnswer: "a"
+        correctAnswer: "c"
     },
 
     {
