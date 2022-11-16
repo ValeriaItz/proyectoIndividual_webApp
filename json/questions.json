@@ -2,54 +2,54 @@ data = [
     {
         question: "¿Con qué película ganó Steven Spielberg su primer Oscar al mejor director?",
         answers: {
-            a: "El color púrpura.",
-            b: "E.T. el extraterrestre.",
-            c: "La lista de Schindler.",
+            a: "El color púrpura",
+            b: "E.T. el extraterrestre",
+            c: "La lista de Schindler",
             d: "Parque Jurásico"
         },
         correctAnswer: "c"
     },
 
     {
-        question: "¿Qué programa de ofimática utilizamos para escribir cartas?",
+        question: "Se estrenó en 1975 y la banda sonora de John Williams le valió incluso un Óscar.",
         answers: {
-            a: "Word",
-            b: "Excel",
-            c: "Internet",
-            d: "Pluma y papel"
+            a: "Tiburón",
+            b: "Anaconda",
+            c: "Piraña",
+            d: "Cocodrilo"
         },
         correctAnswer: "a"
     },
     
     {
-        question: "Cuando realizamos dibujos y hacemos edicion de imagenes en la computadora lo podemos hacer con algunos de estos programas, ¿cuales son?",
+        question: "¿Cuál fue la primera película de Disney?",
         answers: {
-            a: "Paint",
-            b: "Fireworks",
-            c: "Photoshop",
-            d: "Cualquiera de los 3 anteriores"
+            a: "La Cenicienta",
+            b: "Pocahontas",
+            c: "La bella y la bestia",
+            d: "Blancanieves y los siete enanitos"
         },
         correctAnswer: "d"
     },
 
     {
-        question: "Menciona que son los elementos de entrada a un computador.",
+        question: "¿Qué libro de Stephen King fue llevado al cine y protagonizado por Jack Nicholson?",
         answers: {
-            a: "Son programas en espera al ser ejecutados",
-            b: "Son los que permiten dar entrada al cpu",
-            c: "Son los que te permiten abrir Internet",
-            d: "Google, Yahoo, Gmail"
+            a: "It",
+            b: "El resplandor",
+            c: "La milla verde",
+            d: "La niebla"
         },
         correctAnswer: "b"
     },
 
     {
-        question: "¿Qué función cree usted que cumplan los dispositivos que están conectados a la computadora?",
+        question: "¿Cuál es la película con más Óscars de la historia?",
         answers: {
-            a: "Adornar al computador",
-            b: "Permiten la entrada como la salida de procesos",
-            c: "Permitir el libre acceso al cpu",
-            d: "Sirven para que encienda correctamente una computadora"
+            a: "Gandhi",
+            b: "Señor de los anillos: El retorno del rey",
+            c: "Lo que el viento se llevó",
+            d: "La La Land"
         },
         correctAnswer: "b"
     }
