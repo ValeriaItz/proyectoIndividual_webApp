@@ -134,6 +134,64 @@ h2{
 }
 
 
+/* =========================== FORM STYLES ======================= */
+/*.formLabel{
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    width: 10%;
+}
+
+.formArea{
+    color: #333;
+    font-size: 25px;
+    font-weight: bold;
+    width: 80%;
+}
+
+.formInput{
+    color: #333;
+    font-size: 25px;
+    font-weight: bold;
+    width: 50%;
+}
+
+.formSelect{
+    color: #333;
+    font-size: 25px;
+    font-weight: bold;
+    width: 25%;
+    text-align: center;
+}*/
+
+form{
+    color: #333;
+    font-weight: bold;
+}
+
+.formLabel{
+    font-size: 16px;
+    width: 10%;
+}
+
+.formArea, .formInput, .formSelect{
+    font-size: 25px;
+}
+
+.formArea{
+    width: 80%;
+}
+
+.formInput{
+    width: 50%;
+}
+
+.formSelect{
+    width: 25%;
+    text-align: center;
+}    
+
+
 /* ================= FOOTER =================== */
 #footer {
     position: absolute;       
