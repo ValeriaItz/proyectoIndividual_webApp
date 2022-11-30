@@ -35,6 +35,7 @@ function showResults(){
         const answerBox = answerBoxs[questionNumber];
         const selector = `input[name=question${questionNumber}]:checked`;
         const userAnswer = (answerBox.querySelector(selector) || {}).value;
+        
         if(userAnswer === currentQuestion.correctAnswer){
             numCorrect++;
             answerBoxs[questionNumber].style.color = 'green';
@@ -44,6 +45,7 @@ function showResults(){
         }
     });
     resultsBox.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
+    tryAgainButton.style.display = 'inline-block';
 }
 
 
@@ -77,26 +79,17 @@ function showPreviousSlide() {
 }
 
 
-const quizBox = document.getElementById('quiz');
-const resultsBox = document.getElementById('results');
-const submitButton = document.getElementById('submit');
+const quizBox = document.getElementById("quiz");
+const resultsBox = document.getElementById("results");
+const submitButton = document.getElementById("submit");
 const tryAgainButton = document.getElementById("tryAgain");
 
-/* ----------------- CAMBIAR POR
-const myQuestions = [];
-
-for(i=0; i < data.length; i++){
-    myQuestions.push(data[i]); // pushes the next question into our array. The loop cycles until it reaches the end of the dataset. In our case called ‘data’.
-}
-
-document.getElementById('quizLength').innerHTML = data.length;
-*/
 
 const myQuestions = [];
 const newObject = localStorage.getItem("questionBank");
 let dataStored = JSON.parse(newObject);
 
-if(dataStored != ""){
+if(dataStored){
     for(i=0; i < dataStored.length; i++){
         myQuestions.push(dataStored[i]);
     }
@@ -118,7 +111,7 @@ let currentSlide = 0;
 
 showSlide(currentSlide);
 
-submitButton.addEventListener('click', showResults);
+submitButton.addEventListener("click", showResults);
 previousButton.addEventListener("click", showPreviousSlide);
 nextButton.addEventListener("click", showNextSlide);
 

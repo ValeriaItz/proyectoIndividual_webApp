@@ -3,8 +3,8 @@
 
     <title>Quiz Bank Editor</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen'
-    href='css/app.css'>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/app.css'>
     <script type="text/javascript" src="json/questions.json"></script>
 
 </head>
@@ -28,14 +28,19 @@
             <label class="formLabel">Question Number:</label><br>
             <label class="formLabel">Question:</label><br>
             <textarea maxlength="200" cols="50" rows="5" class="formArea" placeholder="Add your question here. Include a question mark (?) at the end." id="q" name="q" required></textarea><br>
+            
             <label class="formLabel">Answer A:</label>
             <input type="text" maxlength="100" size="100" class="formInput" id="a" name="a" required><br>
+            
             <label class="formLabel">Answer B:</label>
             <input type="text" maxlength="100" size="100" class="formInput" id="b" name="b" required><br>
+            
             <label class="formLabel">Answer C:</label>
             <input type="text" maxlength="100" size="100" class="formInput" id="c" name="c" required><br>
+            
             <label class="formLabel">Answer D:</label>
             <input type="text" maxlength="100" size="100" class="formInput" id="d" name="d" required><br>
+            
             <label class="formLabel">Correct Answer:</label><br>
             <select id="ca" name="ca" class="formSelect" required>
                 <option value="" selected disabled> Choose </option>
@@ -55,7 +60,6 @@
     </div>
     
     <script src='js/addquestions.js'></script>
-    
     <script src='js/menu.js'></script>
 
 </body>

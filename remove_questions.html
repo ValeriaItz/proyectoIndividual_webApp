@@ -2,6 +2,7 @@
 <head>
     <title>Quiz Bank Editor</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta charset="UTF-8">
     <link rel='stylesheet' type='text/css' media='screen' href='css/app.css'>
     <script type="text/javascript" src="json/questions.json"></script>
 </head>
@@ -20,13 +21,11 @@
     </div>
     
     <div class="wrapper">
-        <form id="removeQuestion" onsubmit="submitForm(event)">
         <label class="formLabel">Question Bank:</label><br>
         <div id="showQstn"></div>
         <br><br>
         <button id="removeQuestions"><p>Remove Selected Questions</p></button><br><br><br>
         <button id="saveQuestions"><p>Save Question Bank</p></button>
-        </form>
     </div>
         
     <div id="footer2">
