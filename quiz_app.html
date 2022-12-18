@@ -6,49 +6,49 @@
     <meta charset="UTF-8">        
     <link rel="stylesheet" type="text/css" href="css/app.css">
     <script type="text/javascript" src="json/questions.json"></script>
-    <title>Question Time</title>
+    <title>Películas Quiz</title>
 
 </head>
 
 <body>
 
     <div id="header">
-        <h1><span id="quizLength"></span> Movie Questions<br>The Quiz App</h1>
+        <h1><span id="quizLength"></span> Preguntas sobre películas<br>The Quiz App</h1>
         
         <span id="menu"></span>
         <div id="menubox" style="display: none;">
-            <br><a href="add_questions.html" alt="add questions" title="add questions"> Add Questions </a><br><br>
-            <a href="remove_questions.html" alt="remove questions" title="remove questions"> Drop Questions </a>
+            <br><a href="add_questions.html" alt="add questions" title="add questions"> Agregar preguntas </a><br><br>
+            <a href="remove_questions.html" alt="remove questions" title="remove questions"> Eliminar preguntas </a>
             <span id="menudismiss"> X </span>
-        </div>
-
+        </div>        
     </div>
+
     <div class="quiz-wrapper">
         <div id="quiz"></div>
     </div>
-    <button id="previous"><p>Previous Question</p></button>
-    <button id="next"><p>Next Question</p></button>
-    <button id="submit"><p>Submit Quiz</p></button>
+    <button id="previous"><p>Pregunta anterior</p></button>
+    <button id="next"><p>Siguiente pregunta</p></button>
+    <button id="submit"><p>Calificar Quiz</p></button>
     
     <div id="results"></div>
-    <button id="tryAgain"><p>Try Again</p></button>
+    <button id="tryAgain"><p>Intentar otra vez</p></button>
     
-    <h2>Countdown Timer</h2>
+    <h2>Cuenta regresiva</h2>
     <div id="clockdiv">
         <div>
-            <div class="smalltext">Minutes</div>
+            <div class="smalltext">Minutos</div>
             <span class="minutes"></span>
         </div>
         <div>
-            <div class="smalltext">Seconds</div>
+            <div class="smalltext">Segundos</div>
             <span class="seconds"></span>
         </div>
     </div>  
     
 
-    <div id="footer">
+    <footer>
         <h5>Por Valeria Itzel &copy Copyright Noviembre 2022</h5>
-    </div>
+    </footer>
     <script src="js/app.js"></script>
     <script src="js/countdown.js"></script>
     <script src='js/menu.js'></script>

@@ -52,5 +52,60 @@ data = [
             d: "La La Land"
         },
         correctAnswer: "b"
+    },
+
+    {
+        question: "¿Cuál fue el primer filme extranjero en ganar un Óscar a la mejor película?",
+        answers: {
+            a: "La vida de los otros",
+            b: "Volver",
+            c: "Parásitos",
+            d: "La forma del agua"
+        },
+        correctAnswer: "c"
+    },
+
+    {
+        question: "¿En qué película aparece el robot modelo T-800 que es uno de los más famosos de la historia de la ciencia ficción?",
+        answers: {
+            a: "Yo, Robot",
+            b: "Terminator",
+            c: "Cortocircuito",
+            d: "Robocop"
+        },
+        correctAnswer: "b"
+    },
+
+    {
+        question: "¿Cuál es el verdadero nombre de Darth Vader?",
+        answers: {
+            a: "Anakin Skywalker",
+            b: "Luke Skywalker",
+            c: "Owen Lars",
+            d: "Cassian Andor"
+        },
+        correctAnswer: "a"
+    },
+
+    {
+        question: "¿Quién fue el director de la película de Harry Potter y el prisionero de Azkaban?",
+        answers: {
+            a: "Guillermo del Toro",
+            b: "Alejandro González Iñárritu",
+            c: "Diego Luna",
+            d: "Alfonso Cuarón"
+        },
+        correctAnswer: "d"
+    },
+
+    {
+        question: "¿Cuál fue la primera película dirigida por un mexicano que recibió Óscar como Mejor director y Mejor película?",
+        answers: {
+            a: "Gravity",
+            b: "La forma del agua",
+            c: "Birdman",
+            d: "Roma"
+        },
+        correctAnswer: "c"
     }
 ];
