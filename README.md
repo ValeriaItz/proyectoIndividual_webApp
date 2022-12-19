@@ -5,7 +5,7 @@ Valeria Itzel López Hernández
 
 Aplicación de cuestionarios basada en la web con un enfoque mobile-first. Esta Quiz App contiene 10 preguntas de cultura general sobre películas.
 
-En caso de que exista un **_problema con la visualización de las preguntas_** al momento de abrir el archivo principal quiz_app.html, se debe borrar los datos de navegación del navegador.
+En caso de que exista un **_problema con la visualización de las preguntas_** al momento de abrir el archivo principal quiz_app.html, se debe **_borrar los datos de navegación_** del navegador.
 
 ### Funcionalidades:
 
